@@ -1,0 +1,12 @@
+org.springframework.context.ApplicationContextInitializer=\
+cn.footman.springapplication.context.HelloWorldApplicationContextInitializer,\
+cn.footman.springapplication.context.AfterHelloWorldApplicationContextInitializer
+
+org.springframework.context.ApplicationListener=\
+cn.footman.springapplication.listener.HelloWorldApplicationListener,\
+cn.footman.springapplication.listener.AfterHelloWorldApplicationListener,\
+cn.footman.springapplication.listener.BeforeConfigFileApplicationListner 
+
+# Run Listeners
+org.springframework.boot.SpringApplicationRunListener=\
+cn.footman.springapplication.run.HelloWorldRunListener 
